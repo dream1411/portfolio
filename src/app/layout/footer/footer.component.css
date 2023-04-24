@@ -1,0 +1,11 @@
+.navbar-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ul-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

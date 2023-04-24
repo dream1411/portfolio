@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+main {
+  box-sizing: border-box;
+  margin-top: 8vh;
+  min-height: 92vh;
+  padding-bottom: 20vh;
+  position: relative;
+}
+
+/* router-outlet~* {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+} */
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: black;
+}

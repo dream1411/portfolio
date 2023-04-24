@@ -1,0 +1,28 @@
+<header class="header">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" role="navigation">
+  <a class="navbar-brand mx-3" href="home" role="banner">
+    <img src="https://scontent.fcnx2-1.fna.fbcdn.net/v/t39.30808-6/268903824_6618963164843343_9178382227496474095_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=rhQgyKGZ4bIAX-pWX89&_nc_oc=AQkSNeSJ4UrPJCGOPgYSVWbldIQykjE21dUM2dk-f2Ek3wpA4GCtzYcgEMm8uQSQyDBlUb5JclLsSl1tzeSCeIhn&_nc_ht=scontent.fcnx2-1.fna&oh=00_AfB2AFvQMR_VMxWO1aAgW5jNrgKvLk2OILti8-5SSbBD4A&oe=644457A6" class="logo-header" alt="">
+    PHROMMIN INTANI</a>
+  <button class="navbar-toggler btn btn-outline-info" style="margin-right: 15px;" type="button" data-toggle="collapse" data-target="#navbarsDefault"  aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarsDefault">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsDefault" [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active mx-2">
+        <a class="nav-link" routerLink="/home">Home </a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"routerLink="/about">About</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+    <form class="d-flex my-2 mx-2 my-lg-0">
+      <input class="form-control  mx-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success  mx-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>

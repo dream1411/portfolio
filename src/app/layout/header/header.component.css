@@ -1,0 +1,12 @@
+body {
+    padding-top: 3.5rem;
+}
+#navbarsDefault{
+    justify-content: flex-end;
+}
+.logo-header{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
